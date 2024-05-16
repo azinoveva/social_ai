@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\Entry;
 
 class DatabaseSeeder extends Seeder
 {
@@ -19,5 +20,27 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
+
+
+
+        $json_entries = file_get_contents('socialmaps-items.json');
+        $data = json_decode($json_entries, true);
+        $data = $data['items'];
+
+        foreach ($data as $item) {
+
+            $description = '';
+            foreach($item['description'] as $text) {
+                $description .= $text;
+            }
+            dump($description);
+            Entry::create([
+                'title' => $item['title'],
+                'body' => $text,
+                'tags' => $item['tags'],
+                'primaryTopic' => $item['primaryTopic'],
+            ]);
+        }
+
     }
 }
