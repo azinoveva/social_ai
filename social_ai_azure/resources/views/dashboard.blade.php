@@ -5,24 +5,32 @@
         </h2>
     </x-slot>
 
+    <div class="py-12 max-w-7xl mx-auto sm:px-6 lg:px-8">
+
+    <form class="flex w-full max-w-sm space-x-3">
+        <input 
+            type="text" 
+            name="q"
+            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500" 
+            placeholder="What are you looking for?"
+            value="{{ request('q') }}"
+        >
+        <button 
+            type="submit" 
+            class="px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
+        >
+            Search
+        </button>
+    </form> 
+    @if (request()->has('q'))
+        <p class="text-sm">Using search: <strong>"{{ request('q') }}"</strong>. <a class="border-b border-indigo-800 text-indigo-800" href="{{ route('keyword-search') }}">Clear filters</a></p>
+    @endif
+    </div>
+
     <div class="py-12">
          <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
              <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                  <div class="p-6 bg-white border-b border-gray-200">
-                     <form action="{{ route('dashboard') }}" method="get" class="pb-4">
-                         <div class="form-group">
-                             <input
-                                 type="text"
-                                 name="q"
-                                 class="form-control"
-                                 placeholder="Search..."
-                                 value="{{ request('q') }}"
-                             />
-                         </div>
-                     </form>
-                     @if (request()->has('q'))
-                         <p class="text-sm">Using search: <strong>"{{ request('q') }}"</strong>. <a class="border-b border-indigo-800 text-indigo-800" href="{{ route('dashboard') }}">Clear filters</a></p>
-                     @endif
                      <div class="mt-8 space-y-8">
                          @forelse ($entries as $entry)
                              <article class="space-y-1">
