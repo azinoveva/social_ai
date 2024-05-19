@@ -17,9 +17,9 @@ def text_to_vector(text):
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
-@app.route(route="bert_trigger")
+@app.route(route="bertvectorhelper")
 
-def bert_trigger(req: func.HttpRequest) -> func.HttpResponse:
+def bertvectorhelper(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
 
     try:
