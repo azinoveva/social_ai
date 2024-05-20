@@ -1,0 +1,6 @@
+[
+  {
+    "type": "sqlite",
+    "path": "/Users/alisenz/Documents/Laravel/social-ai-elasticsearch/database/database.sqlite"
+  }
+]
