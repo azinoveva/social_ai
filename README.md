@@ -2,9 +2,9 @@
 
 This project aims to develop a social AI search system that utilizes data analysis, web deployment, and natural language processing techniques. It consists of three branches:
 
-- Main: Contains the introduction and data analysis part of the project.
-- Azure: Focuses on deploying a Laravel website to Azure Web App, with the necessary code and configuration files for setting up the web application on Azure
-- BertVectorizer: Dedicated to an Azure Function App that creates embeddings for queries, utilizing BERT-based models to generate vector representations for text queries.
+- `main`: Contains the introduction and data analysis part of the project.
+- `azure`: Focuses on deploying a Laravel website to Azure Web App, with the necessary code and configuration files for setting up the web application on Azure
+- `bertvectorhelper`: Dedicated to an Azure Function App that creates embeddings for queries, utilizing BERT-based models to generate vector representations for text queries.
 
 Feel free to explore each branch for more details.
 
