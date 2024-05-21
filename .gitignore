@@ -18,4 +18,3 @@ yarn-error.log
 .vscode
 .DS_Store
 socialai-documents
-public/build/
