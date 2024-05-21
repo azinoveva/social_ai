@@ -1,4 +1,4 @@
-# Social AI
+# Social AI: Improving Access to Social Services in Berlin
 
 This project aims to develop a social AI search system that utilizes data analysis, web deployment, and natural language processing techniques. It consists of three branches:
 
