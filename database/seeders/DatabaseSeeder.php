@@ -61,7 +61,6 @@ class DatabaseSeeder extends Seeder
                     'slug' => $item['primaryTopic'],
                     'name' => $this->tags[$item['primaryTopic']],
                 ]);
-                dump($item['primaryTopic']);
             }
 
             $tagIds = [];
