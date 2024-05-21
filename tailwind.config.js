@@ -18,4 +18,5 @@ export default {
     },
 
     plugins: [forms],
+    enabled: process.env.NODE_ENV === "production",
 };
