@@ -1,4 +1,4 @@
-# Social AI: Improving Access to Social Services in Berlin
+# Social AI: [Improving Access to Social Services in Berlin](https://n3xtcoder.org/improving-access-to-social-services)
 
 This project aims to develop a social AI search system that utilizes data analysis, web deployment, and natural language processing techniques. It consists of three branches:
 
@@ -14,9 +14,9 @@ How can we leverage the AI revolution in a responsible way to improve the lives 
 
 ## Event Details
 
-Event Name: AI for Impact: Civil Society and Public Life - Open Innovation Programme
+Event Name: [AI for Impact: Civil Society and Public Life - Open Innovation Programme](https://n3xtcoder.org/events/lhbk5i435_ai-for-impact)
 
-Organizer: N3XTCODER
+Organizer: [N3XTCODER](https://n3xtcoder.org/about)
 
 ## Getting Starteded
 
