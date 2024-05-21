@@ -1,6 +1,6 @@
 # Social AI: [Improving Access to Social Services in Berlin](https://n3xtcoder.org/improving-access-to-social-services)
 
-[![Build and deploy PHP app to Azure Web App - socialaisearch](https://github.com/azinoveva/social_ai/actions/workflows/azure_socialaisearch.yml/badge.svg?branch=azure&event=deployment_status)](https://github.com/azinoveva/social_ai/actions/workflows/azure_socialaisearch.yml)
+[![Build and deploy PHP app to Azure Web App - socialaisearch](https://github.com/azinoveva/social_ai/actions/workflows/azure_socialaisearch.yml/badge.svg?branch=azure)](https://github.com/azinoveva/social_ai/actions/workflows/azure_socialaisearch.yml)
 
 This project aims to develop a social AI search system that utilizes data analysis, web deployment, and natural language processing techniques. It consists of three branches:
 
