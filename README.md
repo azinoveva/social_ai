@@ -8,10 +8,6 @@ This project aims to develop a social AI search system that utilizes data analys
 
 Feel free to explore each branch for more details.
 
-## Challenge
-
-How can we leverage the AI revolution in a responsible way to improve the lives of citizens? We teamed up with partners from tech, the public sector, and civil society to tackle real challenges they face. Together we developed an open innovation program and intense learning journey to get practical with AI!
-
 ## Event Details
 
 Event Name: [AI for Impact: Civil Society and Public Life - Open Innovation Programme](https://n3xtcoder.org/events/lhbk5i435_ai-for-impact)
