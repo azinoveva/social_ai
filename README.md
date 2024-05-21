@@ -30,9 +30,9 @@ The `main` branch contains the introduction and data analysis part of the projec
 
 The `azure` branch focuses on deploying a Laravel website to Azure Web App. It includes the necessary code and configuration files to set up the web application on Azure.
 
-## BertVectorizer
+## BertVectorHelper
 
-The `bertvectorizer` branch is dedicated to an Azure Function App that creates embeddings for the queries. This branch contains the code for the Azure Function that utilizes BERT-based models to generate vector representations for text queries.
+The `bertvectorhelper` branch is dedicated to an Azure Function App that creates embeddings for the queries. This branch contains the code for the Azure Function that utilizes BERT-based models to generate vector representations for text queries.
 
 Feel free to explore each branch for more details on the specific functionalities and implementation details.
 
