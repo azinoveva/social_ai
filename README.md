@@ -18,7 +18,13 @@ Event Name: [AI for Impact: Civil Society and Public Life - Open Innovation Prog
 
 Organizer: [N3XTCODER](https://n3xtcoder.org/about)
 
-## Getting Starteded
+## Proof of Concept
+
+The demo app can be accessed at [socialaisearch.azurewebsites.net](http://socialaisearch.azurewebsites.net/).
+
+We are currently investigating design rendering issues. Meanwhile, please pretend the app looks like this: ![design](/misc/design.png)
+
+## Getting Started
 
 To get started with this project, follow the instructions in each branch's README file to set up the required dependencies and run the code.
 
