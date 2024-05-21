@@ -16,6 +16,6 @@
         "vite": "^5.0"
     },
     "dependencies": {
-        "build-css": "^0.0.1"
+        "build-css": "^0.2.0"
     }
 }
