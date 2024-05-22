@@ -85,8 +85,12 @@ class EntryController extends Controller
         $primary_topic = $request->input('primary_topic');
         $perPage = 10; // Number of items per page
 
-        if (empty($term) && empty($primary_topic)) {
-            return view('dashboard', ['entries' => Entry::paginate($perPage), 'primaryTopics' => PrimaryTopic::all()]);
+        if (empty($term)) {
+            if (empty($primary_topic)) {
+                return view('dashboard', ['entries' => Entry::paginate($perPage), 'primaryTopics' => PrimaryTopic::all()]);
+            } else {
+                return view('dashboard', ['entries' => Entry::where('primary_topic_id', $primary_topic)->paginate($perPage), 'primaryTopics' => PrimaryTopic::all()]);
+            }
         }
         else {
 
